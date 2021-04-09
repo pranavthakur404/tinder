@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+.center-div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+/* BANNER START */
+.banner{
+    width: 100vw;
+    padding-bottom: 170px ;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/tinder\ bg.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+nav{
+    padding: 20px 10px;
+    position: sticky;
+    top: 0px;
+}
+nav .logo{
+ font-size: 4rem;
+}
+nav .logo i{
+    margin-top:15px ;
+}
+nav .buttons{
+    width: 25%;
+    margin-top: 30px;
+}
+nav .buttons .lang{
+    width: 40%;
+    height: 50px;
+    border: none;
+    background:none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+nav .buttons .login{
+    width: 40%;
+    height: 50px;
+    font-size: 1.5rem;
+    color: #FD5068;
+    font-weight: 600;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+nav .buttons .login:hover{
+    background-image: linear-gradient(to right,   #e46b7b, #FD5068);
+    color: #fff;
+}
+.banner .banner-inner .banner-text h1{
+     font-size: 9rem;
+     letter-spacing:5px;
+     margin-top: 170px;
+}
+.banner .banner-inner .banner-text button{
+    width: 25%;
+    height: 10vh;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(to right, #fa1c3a, #fb6e81);
+    transition: 1s;
+}
+.banner .banner-inner .banner-text button:hover{
+    background-image: linear-gradient(to right,#fb6e81, #fa1c3a);
+}
+
+/* banner section ends */
+
+/* testimonials-section start */
+.testimonials-section .three-box{
+    width: 100%;
+    padding: 50px 0px;
+    overflow-x: hidden;
+}
+.testimonials-section .three-box .box{
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    box-shadow: 0px 5px 7px 0px silver;
+    transition: 1s;
+}
+.testimonials-section .three-box .heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonials-section .three-box .box h3{
+    font-size: 1.5rem;
+}
+.testimonials-section .three-box .box hr{
+    width: 15vw;
+    border: none;
+    height: 1px;
+    background: rgb(195, 195, 195);
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.testimonials-section .three-box .box p{
+   font-size: 1.5rem;
+   color: silver;
+}
+.testimonials-section .three-box .heading i{
+    font-size: 3rem;
+    color: silver;
+}
+.testimonials-section .three-box .box:hover{
+      transform: translate(0px,50px);
+
+}
+
+.testimonials-section .three-box .box1{
+    animation: change 3s infinite 0s;
+}
+@keyframes change{
+    0%{
+        order: 0;
+
+    }
+    
+    100%{
+        order:1;
+    }
+}
+
+
+
+
+/* social section start */
+
+.social-section .box{
+    width: 18%;
+    text-align: left;
+}
+.social-section{
+    padding: 50px 0px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.social-section .box h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.social-section .box p{
+    font-size: 1.5rem;
+    color: lightslategray;
+}
+.social-section .box .social{
+    display: flex;
+    justify-content: space-between;
+    font-size:3rem;
+}
+.social-section .box p:hover{
+    color: red;
+    cursor: pointer;
+}
+.social-section .box ul li{
+    list-style: none;
+}
+.social-section .box ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* get section start */
+.get{
+    width: 100%;
+    padding: 50px 0px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.get .logo{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.get .logo h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+} 
+.get .logo i{
+    font-size: 3rem;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.get  p{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: lightslategray;
+}
+
+/* footer start */
+footer{
+    padding: 30px 0px;
+}
+footer .navigate{
+    width: 30%;
+    font-size: 1.2rem;
+    
+}
+footer p{
+  font-size: 1.2rem;
+}
+footer ul li{
+    list-style: none;
+    color: silver;
+}
+footer ul li::after{
+    content: "/";
+     margin: 0px 10px;
+     color: silver;
+}
+
+
+
+/* media quary start */
+@media only screen and (max-width:917px){
+    html{
+        font-size: 9px;
+    }
+    nav .buttons{
+        width: 35%;
+    }
+    .get{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .get .logo{
+        width: 70%;
+    }
+    footer .navigate{
+        width: 50%;
+    }
+    footer{
+        padding-left:3% ;
+        padding-right: 3%;
+    }
+    
+}
+
+@media only screen and (max-width:768px){
+    .testimonials-section .three-box .box{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+
+    }
+    .social-section .box{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    html{
+        font-size: 8px;
+    }
+
+}
+
+
+@media only screen and (max-width:650px){
+    footer .navigate{
+        margin: 0 auto;
+        width: 80%;
+        
+    }
+    footer p{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    html{
+        font-size: 7px;
+    }
+}
