@@ -22,7 +22,7 @@ html{
 .banner{
     width: 100vw;
     padding-bottom: 170px ;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/tinder\ bg.PNG');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/tinder\ bg.PNG');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
